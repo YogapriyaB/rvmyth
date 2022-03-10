@@ -329,6 +329,9 @@ https://www.makerchip.com/
 
  # OUTPUT WAVEFORMS
  
+ <img width="960" alt="output v_cout" src="https://user-images.githubusercontent.com/101329190/157720830-c8e92401-7b3d-4505-9517-fb7b23312f9b.png">
+
+ 
  
  
  
