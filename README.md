@@ -330,13 +330,14 @@ https://www.makerchip.com/
  # OUTPUT WAVEFORMS
  
  <img width="960" alt="output v_cout" src="https://user-images.githubusercontent.com/101329190/157720830-c8e92401-7b3d-4505-9517-fb7b23312f9b.png">
+ 
+ <img width="959" alt="output vclk" src="https://user-images.githubusercontent.com/101329190/157720811-cbf2e499-1739-4852-98c1-2a9e3344dbab.png">
+ 
+<img width="955" alt="output result" src="https://user-images.githubusercontent.com/101329190/157720819-5ee59fbe-ec6c-4ace-b771-7f81a2763539.png">
 
- 
- 
- 
- 
- 
  # GAW WAVEFORMS
+ 
+ 
  
  
  # BY
