@@ -317,3 +317,7 @@ https://www.makerchip.com/
  
  
  # CREATING MODELS
+ 
+ # SCHEMATICS
+ 
+ <img width="960" alt="schematic diagram" src="https://user-images.githubusercontent.com/101329190/157716665-9ffba1a5-446f-43f7-88fa-c3f9fc007325.png">
