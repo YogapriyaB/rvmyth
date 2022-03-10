@@ -315,6 +315,8 @@ https://www.makerchip.com/
  
  # MAKERCHIP WAVEFORM
  
+ <img width="483" alt="makerchip output" src="https://user-images.githubusercontent.com/101329190/157720155-f1461530-9893-4ee6-9682-f1854afe1d2e.png">
+ 
  
  # CREATING MODELS
  
