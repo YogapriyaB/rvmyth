@@ -318,8 +318,11 @@ https://www.makerchip.com/
  <img width="483" alt="makerchip output" src="https://user-images.githubusercontent.com/101329190/157720155-f1461530-9893-4ee6-9682-f1854afe1d2e.png">
  
  
- # CREATING MODELS
+ # CREATING MODELS OF NGVERI
  
+ <img width="960" alt="Ngveri" src="https://user-images.githubusercontent.com/101329190/157720443-e1d8b271-34d7-4865-8709-d44935108f3b.png">
+
+
  # SCHEMATICS
  
  <img width="960" alt="schematic diagram" src="https://user-images.githubusercontent.com/101329190/157716665-9ffba1a5-446f-43f7-88fa-c3f9fc007325.png">
