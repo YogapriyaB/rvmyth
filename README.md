@@ -337,9 +337,9 @@ https://www.makerchip.com/
 
  # GAW WAVEFORMS
  
- 
- 
- 
+ <img width="960" alt="gaw output" src="https://user-images.githubusercontent.com/101329190/157721382-f9025518-3cc7-4de0-b77d-95922807910b.png">
+
+
  # BY
     B. Yogapriya
     Third year, B.E, ECE
