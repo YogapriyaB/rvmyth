@@ -1,0 +1,24 @@
+* /home/yogapriyab2001/eSim-Workspace/mixed/mixed.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: Thu 10 Mar 2022 06:51:00 AM UTC
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+v1  Net-_R1-Pad1_ GND DC		
+R1  Net-_R1-Pad1_ Net-_R1-Pad2_ 1k		
+C1  C_out GND 0.1u		
+U3  clk rst Net-_U2-Pad1_ Net-_U2-Pad2_ adc_bridge_2		
+R2  Net-_R1-Pad2_ C_out 10k		
+U4  ? ? Net-_U4-Pad3_ Net-_U4-Pad4_ dac_bridge_2		
+U1  C_out plot_v1		
+U7  clk plot_v1		
+v2  rst GND DC		
+X2  Net-_U4-Pad4_ Net-_U4-Pad3_ Net-_U5-Pad16_ Net-_U5-Pad15_ Net-_U5-Pad14_ Net-_U5-Pad13_ Net-_U5-Pad12_ Net-_U5-Pad11_ Net-_U5-Pad10_ Net-_U5-Pad9_ out 10bitDAC		
+U6  out plot_v1		
+U5  Net-_U2-Pad3_ Net-_U2-Pad4_ Net-_U2-Pad5_ Net-_U2-Pad6_ Net-_U2-Pad7_ Net-_U2-Pad8_ Net-_U2-Pad9_ Net-_U2-Pad10_ Net-_U5-Pad9_ Net-_U5-Pad10_ Net-_U5-Pad11_ Net-_U5-Pad12_ Net-_U5-Pad13_ Net-_U5-Pad14_ Net-_U5-Pad15_ Net-_U5-Pad16_ dac_bridge_8		
+X1  Net-_R1-Pad1_ Net-_R1-Pad2_ C_out clk Clock_pulse_generator		
+U2  Net-_U2-Pad1_ Net-_U2-Pad2_ Net-_U2-Pad3_ Net-_U2-Pad4_ Net-_U2-Pad5_ Net-_U2-Pad6_ Net-_U2-Pad7_ Net-_U2-Pad8_ Net-_U2-Pad9_ Net-_U2-Pad10_ yogapriya_rvmyth		
+
+.end

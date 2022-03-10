@@ -1,0 +1,43 @@
+* /home/yogapriyab2001/esim-workspace/mixed/mixed.cir
+
+.include Clock_pulse_generator.sub
+.include 10bitDAC.sub
+v1 net-_r1-pad1_ gnd  dc 10
+r1  net-_r1-pad1_ net-_r1-pad2_ 1k
+c1  c_out gnd 0.1u
+* u3  clk rst net-_u2-pad1_ net-_u2-pad2_ adc_bridge_2
+r2  net-_r1-pad2_ c_out 10k
+* u4  ? ? net-_u4-pad3_ net-_u4-pad4_ dac_bridge_2
+* u1  c_out plot_v1
+* u7  clk plot_v1
+v2 rst gnd  dc 0
+x2 net-_u4-pad4_ net-_u4-pad3_ net-_u5-pad16_ net-_u5-pad15_ net-_u5-pad14_ net-_u5-pad13_ net-_u5-pad12_ net-_u5-pad11_ net-_u5-pad10_ net-_u5-pad9_ out 10bitDAC
+* u6  out plot_v1
+* u5  net-_u2-pad3_ net-_u2-pad4_ net-_u2-pad5_ net-_u2-pad6_ net-_u2-pad7_ net-_u2-pad8_ net-_u2-pad9_ net-_u2-pad10_ net-_u5-pad9_ net-_u5-pad10_ net-_u5-pad11_ net-_u5-pad12_ net-_u5-pad13_ net-_u5-pad14_ net-_u5-pad15_ net-_u5-pad16_ dac_bridge_8
+x1 net-_r1-pad1_ net-_r1-pad2_ c_out clk Clock_pulse_generator
+* u2  net-_u2-pad1_ net-_u2-pad2_ net-_u2-pad3_ net-_u2-pad4_ net-_u2-pad5_ net-_u2-pad6_ net-_u2-pad7_ net-_u2-pad8_ net-_u2-pad9_ net-_u2-pad10_ yogapriya_rvmyth
+a1 [clk rst ] [net-_u2-pad1_ net-_u2-pad2_ ] u3
+a2 [? ? ] [net-_u4-pad3_ net-_u4-pad4_ ] u4
+a3 [net-_u2-pad3_ net-_u2-pad4_ net-_u2-pad5_ net-_u2-pad6_ net-_u2-pad7_ net-_u2-pad8_ net-_u2-pad9_ net-_u2-pad10_ ] [net-_u5-pad9_ net-_u5-pad10_ net-_u5-pad11_ net-_u5-pad12_ net-_u5-pad13_ net-_u5-pad14_ net-_u5-pad15_ net-_u5-pad16_ ] u5
+a4 [net-_u2-pad1_ ] [net-_u2-pad2_ ] [net-_u2-pad3_ net-_u2-pad4_ net-_u2-pad5_ net-_u2-pad6_ net-_u2-pad7_ net-_u2-pad8_ net-_u2-pad9_ net-_u2-pad10_ ] u2
+* Schematic Name:                             adc_bridge_2, NgSpice Name: adc_bridge
+.model u3 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_2, NgSpice Name: dac_bridge
+.model u4 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_8, NgSpice Name: dac_bridge
+.model u5 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             yogapriya_rvmyth, NgSpice Name: yogapriya_rvmyth
+.model u2 yogapriya_rvmyth(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+.tran 1e-03 1000e-03 0e-00
+
+* Control Statements 
+.control
+option noopalter
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+plot v(c_out)
+plot v(clk)
+plot v(out)
+.endc
+.end
