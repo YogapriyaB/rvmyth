@@ -49,15 +49,15 @@ The purpose of this project is to integrate rvmyth (RISC-V) with digital to anal
 
 # EDA TOOLS USED
 
-# eSim
+eSim
 It is an Open Source EDA developed by FOSSEE, IIT Bombay. It is used for electronic circuit simulation. It is made by the combination of two software namely NgSpice and KiCAD. For more details refer:
 https://esim.fossee.in/home
 
-# NgSpice
+NgSpice
 It is an Open Source Software for Spice Simulations. For more details refer:
 http://ngspice.sourceforge.net/docs.html
 
-# Makerchip
+Makerchip
 It is an Online Web Browser IDE for Verilog/System-verilog/TL-Verilog Simulation. For more details refer:
 https://www.makerchip.com/
 
@@ -349,7 +349,8 @@ https://www.makerchip.com/
 
   <img width="955" alt="output result" src="https://user-images.githubusercontent.com/101329190/157720819-5ee59fbe-ec6c-4ace-b771-7f81a2763539.png">
   
-
+  
+  
  # GAW WAVEFORMS
  
  <img width="960" alt="gaw output" src="https://user-images.githubusercontent.com/101329190/157721382-f9025518-3cc7-4de0-b77d-95922807910b.png">
