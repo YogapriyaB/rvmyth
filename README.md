@@ -328,9 +328,9 @@ https://www.makerchip.com/
  
  # NETLIST
  
+ https://github.com/YogapriyaB/rvmyth/blob/main/esim_project_files/mixed.cir.out
  
  
-
  # CREATING MODELS OF NGVERI
  
  <img width="960" alt="Ngveri" src="https://user-images.githubusercontent.com/101329190/157720443-e1d8b271-34d7-4865-8709-d44935108f3b.png">
