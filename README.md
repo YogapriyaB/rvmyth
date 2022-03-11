@@ -18,16 +18,16 @@
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
       
- # ABSTRACT
+# ABSTRACT
  
  RISC-V is an open standard instruction set architecture (ISA) and is based on established reduced instruction set computer (RISC) principles. This paper describes the circuit implementation & simulation of flash type ADC. In this development of processor based on the open- source RVMYTH mixed signal circuit is presented. This processor is designed for targeting low-cost embedded devices. A RISC-V development and validation framework with assembling tools. The resulting processor is a single core, in-order, RISC-V processor with low hardware complexity. The proposed processor is implemented in Verilog. RISC-V is a free and open ISA enabling a new era of processor innovation through open standard collaboration.
  
- # REFERENCE CIRCUIT DIAGRAM
+# REFERENCE CIRCUIT DIAGRAM
  
  ![image](https://user-images.githubusercontent.com/101329190/157805477-f4102d7c-9eac-4caa-ada4-fd066115ac9f.png)
 
 
- # CIRCUIT DETAILS
+# CIRCUIT DETAILS
 
  As shown in the figure we have analog circuit and digital circuit in which altogether formed a mixed circuit signal in the RVMYTH mixed signal circuit.
 The analog part consists of a clockwise generator connected to resistor capacitor and finally all this grounded. Digital circuit consists of digital board. In between analog and digital circuit ADC and DAC bridges are used as a connector between analog and digital circuit which together forms a mixed signal circuit. 
@@ -36,23 +36,28 @@ The purpose of this project is to integrate rvmyth (RISC-V) with digital to anal
 # PROPOSED METHODOLOGY
 
 • Step 1 : Writing Verilog code for RVMYTH MIXED SIGNAL(RISC-V) & simulating on Makerchip
+
 • Step 2 : Model creation on NgVeri
+
 • Step 3 : Schematics creation
+
 • Step 4 : Creating Netlist
+
 • Step 5 : Setting simulation instance parameters on KicadToNgspice converter
+
 • Step 6: Simulation and Verification of results
 
 # EDA TOOLS USED
 
-eSim
+# eSim
 It is an Open Source EDA developed by FOSSEE, IIT Bombay. It is used for electronic circuit simulation. It is made by the combination of two software namely NgSpice and KiCAD. For more details refer:
 https://esim.fossee.in/home
 
-NgSpice
+# NgSpice
 It is an Open Source Software for Spice Simulations. For more details refer:
 http://ngspice.sourceforge.net/docs.html
 
-Makerchip
+# Makerchip
 It is an Online Web Browser IDE for Verilog/System-verilog/TL-Verilog Simulation. For more details refer:
 https://www.makerchip.com/
 
@@ -335,12 +340,15 @@ https://www.makerchip.com/
  
  <img width="960" alt="output v_cout" src="https://user-images.githubusercontent.com/101329190/157720830-c8e92401-7b3d-4505-9517-fb7b23312f9b.png">
  
+ 
  <img width="959" alt="output vclk" src="https://user-images.githubusercontent.com/101329190/157720811-cbf2e499-1739-4852-98c1-2a9e3344dbab.png">
  
- ![image](https://user-images.githubusercontent.com/101329190/157805639-4902a5e3-75c8-496c-a71d-8a38fd923ca2.png)
-
  
- <img width="955" alt="output result" src="https://user-images.githubusercontent.com/101329190/157720819-5ee59fbe-ec6c-4ace-b771-7f81a2763539.png">
+ ![image](https://user-images.githubusercontent.com/101329190/157805639-4902a5e3-75c8-496c-a71d-8a38fd923ca2.png)
+ 
+
+  <img width="955" alt="output result" src="https://user-images.githubusercontent.com/101329190/157720819-5ee59fbe-ec6c-4ace-b771-7f81a2763539.png">
+  
 
  # GAW WAVEFORMS
  
@@ -348,12 +356,15 @@ https://www.makerchip.com/
 
 
  # BY
+ 
     B. Yogapriya
     Third year, B.E, ECE
     Easwari Engineering College 
     Mail : yogapriyab2001@gmail.com
+    
 
  # ACKNOWEDGEMENTS
+ 
     1. Kunal Ghosh (Co-Founder, VLSI System Design Pvt. Ltd.)
     2. FOSSEE, IIT Bombay
     3. Steve Hoover (Founder, Redwood EDA)
