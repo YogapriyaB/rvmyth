@@ -324,9 +324,13 @@ https://www.makerchip.com/
  
  # MAKERCHIP WAVEFORM
  
- <img width="483" alt="makerchip output" src="https://user-images.githubusercontent.com/101329190/157720155-f1461530-9893-4ee6-9682-f1854afe1d2e.png">
+ ![image](https://user-images.githubusercontent.com/101329190/157807116-6fe2d345-7214-472b-8e1d-e4a1494e848e.png)
+ 
+ # NETLIST
  
  
+ 
+
  # CREATING MODELS OF NGVERI
  
  <img width="960" alt="Ngveri" src="https://user-images.githubusercontent.com/101329190/157720443-e1d8b271-34d7-4865-8709-d44935108f3b.png">
