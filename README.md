@@ -1,19 +1,22 @@
 # Mixed Signal Circuit Design and Simulation Marathon
 
 # IMPLEMENTATION-OF-RVMYTH MIXED SIGNAL
+- [ABSTRACT](#abstract)
+- [REFERENCE CIRCUIT DIAGRAM](#reference-circuit-diagram)
+- [CIRCUIT DETAILS](#circuit-details)
+- [PROPOSED METHODOLOGY](#proposed-methodology)
+- [EDA TOOLS USED](#eda-tools-used)
+- [MAKERCHIP](#makerchip)
+- [MAKERCHIP WAVEFORM](#makerchip-waveform)
+- [CREATING MODELS OF NGVERI](#creating-models-of-ngveri)
+- [SCHEMATICS](#schematics)
+- [OUTPUT WAVEFORMS](#output-waveforms)
+- [GAW WAVEFORMS](#gaw-waveforms)
+- [BY](#by)
+- [ACKNOWEDGEMENTS](#acknowedgements)
 
-      Abstract
-      Reference Circuit Diagram
-      Circuit Details
-      Methodology Proposed
-      EDA Tools Used
-      Makerchip
-      Creating model of rvmyth(RISC-V) using Ngveri
-      Schematics
-      Output waveforms
-      GAW Waveforms
-      Acknowlegemnts
-      References
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
       
  # ABSTRACT
  
@@ -21,8 +24,9 @@
  
  # REFERENCE CIRCUIT DIAGRAM
  
- 
- 
+ ![image](https://user-images.githubusercontent.com/101329190/157805477-f4102d7c-9eac-4caa-ada4-fd066115ac9f.png)
+
+
  # CIRCUIT DETAILS
 
  As shown in the figure we have analog circuit and digital circuit in which altogether formed a mixed circuit signal in the RVMYTH mixed signal circuit.
@@ -333,7 +337,10 @@ https://www.makerchip.com/
  
  <img width="959" alt="output vclk" src="https://user-images.githubusercontent.com/101329190/157720811-cbf2e499-1739-4852-98c1-2a9e3344dbab.png">
  
-<img width="955" alt="output result" src="https://user-images.githubusercontent.com/101329190/157720819-5ee59fbe-ec6c-4ace-b771-7f81a2763539.png">
+ ![image](https://user-images.githubusercontent.com/101329190/157805639-4902a5e3-75c8-496c-a71d-8a38fd923ca2.png)
+
+ 
+ <img width="955" alt="output result" src="https://user-images.githubusercontent.com/101329190/157720819-5ee59fbe-ec6c-4ace-b771-7f81a2763539.png">
 
  # GAW WAVEFORMS
  
