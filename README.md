@@ -390,6 +390,7 @@ Refer: https://www.veripool.org/verilator/
     Mail : yogapriyab2001@gmail.com
     
     
+    
  # ACKNOWEDGEMENTS
  
     1. Kunal Ghosh (Co-Founder, VLSI System Design Pvt. Ltd.)
