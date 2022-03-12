@@ -338,12 +338,12 @@ Refer: https://www.veripool.org/verilator/
  
  # MAKERCHIP WAVEFORM
  
- ![image](https://user-images.githubusercontent.com/101329190/158006048-b596970f-0ca7-4b77-aa37-9ca13d618bc6.png)
+ ![image](https://user-images.githubusercontent.com/101329190/158007378-16fd4dda-62e1-4f61-93fa-7ef8b7f1f6bd.png)
 
- 
- ![image](https://user-images.githubusercontent.com/101329190/157807116-6fe2d345-7214-472b-8e1d-e4a1494e848e.png)
- 
- 
+
+ ![image](https://user-images.githubusercontent.com/101329190/158007391-e7c5c384-ed61-44c0-ba0c-76d600979693.png)
+
+  
  # NETLIST
  
  https://github.com/YogapriyaB/rvmyth/blob/main/esim_project_files/mixed.cir.out
