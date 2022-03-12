@@ -12,7 +12,6 @@
 - [SCHEMATICS](#schematics)
 - [OUTPUT WAVEFORMS](#output-waveforms)
 - [GAW WAVEFORMS](#gaw-waveforms)
-- [BY](#by)
 - [ACKNOWEDGEMENTS](#acknowedgements)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
@@ -360,7 +359,7 @@ https://www.makerchip.com/
  <img width="960" alt="gaw output" src="https://user-images.githubusercontent.com/101329190/157721382-f9025518-3cc7-4de0-b77d-95922807910b.png">
 
 
- # BY
+ # AUTHOR
  
     B. Yogapriya
     Third year, B.E, ECE
